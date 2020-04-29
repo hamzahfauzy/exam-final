@@ -24,7 +24,7 @@ class IndexController
             $waktu_mulai = strtotime($partSesi->sesi->waktu_mulai);
             $waktu_selesai = strtotime($partSesi->sesi->waktu_selesai);
             // if(($now > $waktu_mulai && $now < $waktu_selesai && !$currentSession) || (!$partSesi->partSesi() || $partSesi->partSesi->status == 1))
-            if($now > $waktu_mulai && !$currentSession)
+            if($now > $waktu_mulai && $now < $waktu_selesai && !$currentSession)
             {
                 if($partSesi->partSesi() && $partSesi->partSesi->end_time)
                 {
