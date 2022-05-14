@@ -1,7 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/tmcindonesia
-    # - export DEPLOYPATH=/home/u7452050/public_html/ujian
+    - export DEPLOYPATH=/home/htdoffi1/exam.htd-offical.com
     - /bin/cp -r * $DEPLOYPATH
 
