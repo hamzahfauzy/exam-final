@@ -18,7 +18,6 @@
           	<img src="<?= base_url() ?>/assets/logo.png" width="150px">
           	</center>
             <h5 class="card-title text-center"><?= app()['application_name'] ?> LOGIN</h5>
-            <div class="alert alert-warning"><b>PENTING!</b> Untuk login menggunakan PC/Laptop dengan versi browser yang sudah terupdate</div>
             <?php $old_email=""; if(session()->get('error')): $old_email = session()->get('old_email');?>
             <div class="alert alert-danger"><?=session()->get('error')?></div>
             <?php session()->destroy(); endif ?>
@@ -40,15 +39,7 @@
               </div> -->
               <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit"><i class="fa fa-sign-in"></i> Sign in</button>
               <hr class="my-4">
-              <center>TMC Indonesia</center>
-              <br>
-              <center>
-              Informasi (WA Only)<br>
-              0878 6750 4803 (FERDI)<br>
-              082361878662 (THALITA)
-              </center>
-              <!-- <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fa fa-google mr-2"></i> Sign in with Google</button>
-              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fa fa-facebook-f mr-2"></i> Sign in with Facebook</button> -->
+              <center>Hamzah Tech Development (HTD)</center>
             </form>
           </div>
         </div>
