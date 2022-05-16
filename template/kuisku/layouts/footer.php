@@ -1,6 +1,6 @@
 <footer>
     <br><br>
     <center>
-    <p>TMC Indonesia</p>
+    <p>Hamzah Tech Development (HTD)</p>
     </center>
 </footer>
